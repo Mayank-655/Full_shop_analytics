@@ -1,0 +1,2738 @@
+{
+  "kpis": {
+    "users": 110518,
+    "orders": 155617,
+    "revenue": 6348004.87,
+    "repeat_purchase_rate_pct": 21.09,
+    "as_of": "2020-02-29"
+  },
+  "funnel": [
+    {
+      "event_date": "2019-10-01",
+      "viewed": 27761,
+      "added_to_cart": 9247,
+      "purchased": 1019,
+      "view_to_cart_pct": 33.31,
+      "cart_to_purchase_pct": 11.02
+    },
+    {
+      "event_date": "2019-10-02",
+      "viewed": 42424,
+      "added_to_cart": 23803,
+      "purchased": 1068,
+      "view_to_cart_pct": 56.11,
+      "cart_to_purchase_pct": 4.49
+    },
+    {
+      "event_date": "2019-10-03",
+      "viewed": 24998,
+      "added_to_cart": 6530,
+      "purchased": 1058,
+      "view_to_cart_pct": 26.12,
+      "cart_to_purchase_pct": 16.2
+    },
+    {
+      "event_date": "2019-10-04",
+      "viewed": 22691,
+      "added_to_cart": 5352,
+      "purchased": 911,
+      "view_to_cart_pct": 23.59,
+      "cart_to_purchase_pct": 17.02
+    },
+    {
+      "event_date": "2019-10-05",
+      "viewed": 21660,
+      "added_to_cart": 5823,
+      "purchased": 724,
+      "view_to_cart_pct": 26.88,
+      "cart_to_purchase_pct": 12.43
+    },
+    {
+      "event_date": "2019-10-06",
+      "viewed": 39114,
+      "added_to_cart": 21002,
+      "purchased": 849,
+      "view_to_cart_pct": 53.69,
+      "cart_to_purchase_pct": 4.04
+    },
+    {
+      "event_date": "2019-10-07",
+      "viewed": 37432,
+      "added_to_cart": 15584,
+      "purchased": 1133,
+      "view_to_cart_pct": 41.63,
+      "cart_to_purchase_pct": 7.27
+    },
+    {
+      "event_date": "2019-10-08",
+      "viewed": 30381,
+      "added_to_cart": 9400,
+      "purchased": 1051,
+      "view_to_cart_pct": 30.94,
+      "cart_to_purchase_pct": 11.18
+    },
+    {
+      "event_date": "2019-10-09",
+      "viewed": 29000,
+      "added_to_cart": 6426,
+      "purchased": 1073,
+      "view_to_cart_pct": 22.16,
+      "cart_to_purchase_pct": 16.7
+    },
+    {
+      "event_date": "2019-10-10",
+      "viewed": 27318,
+      "added_to_cart": 6180,
+      "purchased": 994,
+      "view_to_cart_pct": 22.62,
+      "cart_to_purchase_pct": 16.08
+    },
+    {
+      "event_date": "2019-10-11",
+      "viewed": 25300,
+      "added_to_cart": 5367,
+      "purchased": 887,
+      "view_to_cart_pct": 21.21,
+      "cart_to_purchase_pct": 16.53
+    },
+    {
+      "event_date": "2019-10-12",
+      "viewed": 22321,
+      "added_to_cart": 4888,
+      "purchased": 796,
+      "view_to_cart_pct": 21.9,
+      "cart_to_purchase_pct": 16.28
+    },
+    {
+      "event_date": "2019-10-13",
+      "viewed": 23257,
+      "added_to_cart": 5196,
+      "purchased": 829,
+      "view_to_cart_pct": 22.34,
+      "cart_to_purchase_pct": 15.95
+    },
+    {
+      "event_date": "2019-10-14",
+      "viewed": 26715,
+      "added_to_cart": 6462,
+      "purchased": 1065,
+      "view_to_cart_pct": 24.19,
+      "cart_to_purchase_pct": 16.48
+    },
+    {
+      "event_date": "2019-10-15",
+      "viewed": 25627,
+      "added_to_cart": 6092,
+      "purchased": 1007,
+      "view_to_cart_pct": 23.77,
+      "cart_to_purchase_pct": 16.53
+    },
+    {
+      "event_date": "2019-10-16",
+      "viewed": 26912,
+      "added_to_cart": 6530,
+      "purchased": 1108,
+      "view_to_cart_pct": 24.26,
+      "cart_to_purchase_pct": 16.97
+    },
+    {
+      "event_date": "2019-10-17",
+      "viewed": 27629,
+      "added_to_cart": 6230,
+      "purchased": 1073,
+      "view_to_cart_pct": 22.55,
+      "cart_to_purchase_pct": 17.22
+    },
+    {
+      "event_date": "2019-10-18",
+      "viewed": 25079,
+      "added_to_cart": 5591,
+      "purchased": 939,
+      "view_to_cart_pct": 22.29,
+      "cart_to_purchase_pct": 16.79
+    },
+    {
+      "event_date": "2019-10-19",
+      "viewed": 22040,
+      "added_to_cart": 4923,
+      "purchased": 694,
+      "view_to_cart_pct": 22.34,
+      "cart_to_purchase_pct": 14.1
+    },
+    {
+      "event_date": "2019-10-20",
+      "viewed": 23968,
+      "added_to_cart": 5276,
+      "purchased": 813,
+      "view_to_cart_pct": 22.01,
+      "cart_to_purchase_pct": 15.41
+    },
+    {
+      "event_date": "2019-10-21",
+      "viewed": 28726,
+      "added_to_cart": 6945,
+      "purchased": 1063,
+      "view_to_cart_pct": 24.18,
+      "cart_to_purchase_pct": 15.31
+    },
+    {
+      "event_date": "2019-10-22",
+      "viewed": 27622,
+      "added_to_cart": 6265,
+      "purchased": 1032,
+      "view_to_cart_pct": 22.68,
+      "cart_to_purchase_pct": 16.47
+    },
+    {
+      "event_date": "2019-10-23",
+      "viewed": 26616,
+      "added_to_cart": 6347,
+      "purchased": 1051,
+      "view_to_cart_pct": 23.85,
+      "cart_to_purchase_pct": 16.56
+    },
+    {
+      "event_date": "2019-10-24",
+      "viewed": 26199,
+      "added_to_cart": 6067,
+      "purchased": 996,
+      "view_to_cart_pct": 23.16,
+      "cart_to_purchase_pct": 16.42
+    },
+    {
+      "event_date": "2019-10-25",
+      "viewed": 24623,
+      "added_to_cart": 5482,
+      "purchased": 861,
+      "view_to_cart_pct": 22.26,
+      "cart_to_purchase_pct": 15.71
+    },
+    {
+      "event_date": "2019-10-26",
+      "viewed": 22782,
+      "added_to_cart": 5196,
+      "purchased": 631,
+      "view_to_cart_pct": 22.81,
+      "cart_to_purchase_pct": 12.14
+    },
+    {
+      "event_date": "2019-10-27",
+      "viewed": 23782,
+      "added_to_cart": 5716,
+      "purchased": 927,
+      "view_to_cart_pct": 24.03,
+      "cart_to_purchase_pct": 16.22
+    },
+    {
+      "event_date": "2019-10-28",
+      "viewed": 27890,
+      "added_to_cart": 6217,
+      "purchased": 1019,
+      "view_to_cart_pct": 22.29,
+      "cart_to_purchase_pct": 16.39
+    },
+    {
+      "event_date": "2019-10-29",
+      "viewed": 28441,
+      "added_to_cart": 6316,
+      "purchased": 944,
+      "view_to_cart_pct": 22.21,
+      "cart_to_purchase_pct": 14.95
+    },
+    {
+      "event_date": "2019-10-30",
+      "viewed": 26717,
+      "added_to_cart": 6046,
+      "purchased": 912,
+      "view_to_cart_pct": 22.63,
+      "cart_to_purchase_pct": 15.08
+    },
+    {
+      "event_date": "2019-10-31",
+      "viewed": 25059,
+      "added_to_cart": 5741,
+      "purchased": 952,
+      "view_to_cart_pct": 22.91,
+      "cart_to_purchase_pct": 16.58
+    },
+    {
+      "event_date": "2019-11-01",
+      "viewed": 23830,
+      "added_to_cart": 5510,
+      "purchased": 928,
+      "view_to_cart_pct": 23.12,
+      "cart_to_purchase_pct": 16.84
+    },
+    {
+      "event_date": "2019-11-02",
+      "viewed": 23221,
+      "added_to_cart": 5370,
+      "purchased": 826,
+      "view_to_cart_pct": 23.13,
+      "cart_to_purchase_pct": 15.38
+    },
+    {
+      "event_date": "2019-11-03",
+      "viewed": 24947,
+      "added_to_cart": 5637,
+      "purchased": 902,
+      "view_to_cart_pct": 22.6,
+      "cart_to_purchase_pct": 16.0
+    },
+    {
+      "event_date": "2019-11-04",
+      "viewed": 24601,
+      "added_to_cart": 6076,
+      "purchased": 956,
+      "view_to_cart_pct": 24.7,
+      "cart_to_purchase_pct": 15.73
+    },
+    {
+      "event_date": "2019-11-05",
+      "viewed": 30318,
+      "added_to_cart": 6934,
+      "purchased": 1041,
+      "view_to_cart_pct": 22.87,
+      "cart_to_purchase_pct": 15.01
+    },
+    {
+      "event_date": "2019-11-06",
+      "viewed": 27930,
+      "added_to_cart": 6700,
+      "purchased": 1068,
+      "view_to_cart_pct": 23.99,
+      "cart_to_purchase_pct": 15.94
+    },
+    {
+      "event_date": "2019-11-07",
+      "viewed": 32164,
+      "added_to_cart": 8753,
+      "purchased": 1627,
+      "view_to_cart_pct": 27.21,
+      "cart_to_purchase_pct": 18.59
+    },
+    {
+      "event_date": "2019-11-08",
+      "viewed": 30329,
+      "added_to_cart": 7815,
+      "purchased": 1588,
+      "view_to_cart_pct": 25.77,
+      "cart_to_purchase_pct": 20.32
+    },
+    {
+      "event_date": "2019-11-09",
+      "viewed": 24142,
+      "added_to_cart": 5300,
+      "purchased": 726,
+      "view_to_cart_pct": 21.95,
+      "cart_to_purchase_pct": 13.7
+    },
+    {
+      "event_date": "2019-11-10",
+      "viewed": 24784,
+      "added_to_cart": 5771,
+      "purchased": 826,
+      "view_to_cart_pct": 23.29,
+      "cart_to_purchase_pct": 14.31
+    },
+    {
+      "event_date": "2019-11-11",
+      "viewed": 29226,
+      "added_to_cart": 6685,
+      "purchased": 1139,
+      "view_to_cart_pct": 22.87,
+      "cart_to_purchase_pct": 17.04
+    },
+    {
+      "event_date": "2019-11-12",
+      "viewed": 27581,
+      "added_to_cart": 6267,
+      "purchased": 990,
+      "view_to_cart_pct": 22.72,
+      "cart_to_purchase_pct": 15.8
+    },
+    {
+      "event_date": "2019-11-13",
+      "viewed": 27887,
+      "added_to_cart": 6444,
+      "purchased": 1111,
+      "view_to_cart_pct": 23.11,
+      "cart_to_purchase_pct": 17.24
+    },
+    {
+      "event_date": "2019-11-14",
+      "viewed": 27078,
+      "added_to_cart": 6322,
+      "purchased": 1020,
+      "view_to_cart_pct": 23.35,
+      "cart_to_purchase_pct": 16.13
+    },
+    {
+      "event_date": "2019-11-15",
+      "viewed": 24693,
+      "added_to_cart": 5530,
+      "purchased": 858,
+      "view_to_cart_pct": 22.4,
+      "cart_to_purchase_pct": 15.52
+    },
+    {
+      "event_date": "2019-11-16",
+      "viewed": 21435,
+      "added_to_cart": 5206,
+      "purchased": 815,
+      "view_to_cart_pct": 24.29,
+      "cart_to_purchase_pct": 15.66
+    },
+    {
+      "event_date": "2019-11-17",
+      "viewed": 24326,
+      "added_to_cart": 5780,
+      "purchased": 887,
+      "view_to_cart_pct": 23.76,
+      "cart_to_purchase_pct": 15.35
+    },
+    {
+      "event_date": "2019-11-18",
+      "viewed": 30497,
+      "added_to_cart": 7418,
+      "purchased": 1098,
+      "view_to_cart_pct": 24.32,
+      "cart_to_purchase_pct": 14.8
+    },
+    {
+      "event_date": "2019-11-19",
+      "viewed": 29433,
+      "added_to_cart": 6764,
+      "purchased": 1078,
+      "view_to_cart_pct": 22.98,
+      "cart_to_purchase_pct": 15.94
+    },
+    {
+      "event_date": "2019-11-20",
+      "viewed": 28027,
+      "added_to_cart": 6824,
+      "purchased": 1111,
+      "view_to_cart_pct": 24.35,
+      "cart_to_purchase_pct": 16.28
+    },
+    {
+      "event_date": "2019-11-21",
+      "viewed": 35695,
+      "added_to_cart": 10361,
+      "purchased": 1748,
+      "view_to_cart_pct": 29.03,
+      "cart_to_purchase_pct": 16.87
+    },
+    {
+      "event_date": "2019-11-22",
+      "viewed": 44475,
+      "added_to_cart": 13247,
+      "purchased": 2352,
+      "view_to_cart_pct": 29.79,
+      "cart_to_purchase_pct": 17.75
+    },
+    {
+      "event_date": "2019-11-23",
+      "viewed": 35236,
+      "added_to_cart": 9133,
+      "purchased": 1643,
+      "view_to_cart_pct": 25.92,
+      "cart_to_purchase_pct": 17.99
+    },
+    {
+      "event_date": "2019-11-24",
+      "viewed": 36137,
+      "added_to_cart": 8824,
+      "purchased": 2083,
+      "view_to_cart_pct": 24.42,
+      "cart_to_purchase_pct": 23.61
+    },
+    {
+      "event_date": "2019-11-25",
+      "viewed": 33526,
+      "added_to_cart": 6809,
+      "purchased": 922,
+      "view_to_cart_pct": 20.31,
+      "cart_to_purchase_pct": 13.54
+    },
+    {
+      "event_date": "2019-11-26",
+      "viewed": 31341,
+      "added_to_cart": 6538,
+      "purchased": 971,
+      "view_to_cart_pct": 20.86,
+      "cart_to_purchase_pct": 14.85
+    },
+    {
+      "event_date": "2019-11-27",
+      "viewed": 32806,
+      "added_to_cart": 6646,
+      "purchased": 984,
+      "view_to_cart_pct": 20.26,
+      "cart_to_purchase_pct": 14.81
+    },
+    {
+      "event_date": "2019-11-28",
+      "viewed": 40957,
+      "added_to_cart": 10784,
+      "purchased": 1941,
+      "view_to_cart_pct": 26.33,
+      "cart_to_purchase_pct": 18.0
+    },
+    {
+      "event_date": "2019-11-29",
+      "viewed": 39072,
+      "added_to_cart": 9504,
+      "purchased": 2036,
+      "view_to_cart_pct": 24.32,
+      "cart_to_purchase_pct": 21.42
+    },
+    {
+      "event_date": "2019-11-30",
+      "viewed": 30669,
+      "added_to_cart": 7159,
+      "purchased": 1442,
+      "view_to_cart_pct": 23.34,
+      "cart_to_purchase_pct": 20.14
+    },
+    {
+      "event_date": "2019-12-01",
+      "viewed": 28010,
+      "added_to_cart": 5608,
+      "purchased": 834,
+      "view_to_cart_pct": 20.02,
+      "cart_to_purchase_pct": 14.87
+    },
+    {
+      "event_date": "2019-12-02",
+      "viewed": 30252,
+      "added_to_cart": 6302,
+      "purchased": 1036,
+      "view_to_cart_pct": 20.83,
+      "cart_to_purchase_pct": 16.44
+    },
+    {
+      "event_date": "2019-12-03",
+      "viewed": 29197,
+      "added_to_cart": 6088,
+      "purchased": 990,
+      "view_to_cart_pct": 20.85,
+      "cart_to_purchase_pct": 16.26
+    },
+    {
+      "event_date": "2019-12-04",
+      "viewed": 28665,
+      "added_to_cart": 6344,
+      "purchased": 1058,
+      "view_to_cart_pct": 22.13,
+      "cart_to_purchase_pct": 16.68
+    },
+    {
+      "event_date": "2019-12-05",
+      "viewed": 28296,
+      "added_to_cart": 5976,
+      "purchased": 984,
+      "view_to_cart_pct": 21.12,
+      "cart_to_purchase_pct": 16.47
+    },
+    {
+      "event_date": "2019-12-06",
+      "viewed": 26501,
+      "added_to_cart": 5604,
+      "purchased": 937,
+      "view_to_cart_pct": 21.15,
+      "cart_to_purchase_pct": 16.72
+    },
+    {
+      "event_date": "2019-12-07",
+      "viewed": 24743,
+      "added_to_cart": 4889,
+      "purchased": 758,
+      "view_to_cart_pct": 19.76,
+      "cart_to_purchase_pct": 15.5
+    },
+    {
+      "event_date": "2019-12-08",
+      "viewed": 25419,
+      "added_to_cart": 5732,
+      "purchased": 856,
+      "view_to_cart_pct": 22.55,
+      "cart_to_purchase_pct": 14.93
+    },
+    {
+      "event_date": "2019-12-09",
+      "viewed": 31947,
+      "added_to_cart": 7368,
+      "purchased": 1140,
+      "view_to_cart_pct": 23.06,
+      "cart_to_purchase_pct": 15.47
+    },
+    {
+      "event_date": "2019-12-10",
+      "viewed": 30997,
+      "added_to_cart": 6825,
+      "purchased": 1208,
+      "view_to_cart_pct": 22.02,
+      "cart_to_purchase_pct": 17.7
+    },
+    {
+      "event_date": "2019-12-11",
+      "viewed": 31377,
+      "added_to_cart": 6767,
+      "purchased": 1212,
+      "view_to_cart_pct": 21.57,
+      "cart_to_purchase_pct": 17.91
+    },
+    {
+      "event_date": "2019-12-12",
+      "viewed": 29077,
+      "added_to_cart": 6305,
+      "purchased": 1192,
+      "view_to_cart_pct": 21.68,
+      "cart_to_purchase_pct": 18.91
+    },
+    {
+      "event_date": "2019-12-13",
+      "viewed": 28086,
+      "added_to_cart": 5359,
+      "purchased": 962,
+      "view_to_cart_pct": 19.08,
+      "cart_to_purchase_pct": 17.95
+    },
+    {
+      "event_date": "2019-12-14",
+      "viewed": 24782,
+      "added_to_cart": 4922,
+      "purchased": 811,
+      "view_to_cart_pct": 19.86,
+      "cart_to_purchase_pct": 16.48
+    },
+    {
+      "event_date": "2019-12-15",
+      "viewed": 27305,
+      "added_to_cart": 5662,
+      "purchased": 944,
+      "view_to_cart_pct": 20.74,
+      "cart_to_purchase_pct": 16.67
+    },
+    {
+      "event_date": "2019-12-16",
+      "viewed": 30548,
+      "added_to_cart": 6760,
+      "purchased": 1280,
+      "view_to_cart_pct": 22.13,
+      "cart_to_purchase_pct": 18.93
+    },
+    {
+      "event_date": "2019-12-17",
+      "viewed": 29176,
+      "added_to_cart": 6476,
+      "purchased": 1205,
+      "view_to_cart_pct": 22.2,
+      "cart_to_purchase_pct": 18.61
+    },
+    {
+      "event_date": "2019-12-18",
+      "viewed": 29188,
+      "added_to_cart": 6307,
+      "purchased": 1152,
+      "view_to_cart_pct": 21.61,
+      "cart_to_purchase_pct": 18.27
+    },
+    {
+      "event_date": "2019-12-19",
+      "viewed": 27413,
+      "added_to_cart": 5663,
+      "purchased": 1074,
+      "view_to_cart_pct": 20.66,
+      "cart_to_purchase_pct": 18.97
+    },
+    {
+      "event_date": "2019-12-20",
+      "viewed": 24362,
+      "added_to_cart": 5019,
+      "purchased": 933,
+      "view_to_cart_pct": 20.6,
+      "cart_to_purchase_pct": 18.59
+    },
+    {
+      "event_date": "2019-12-21",
+      "viewed": 22919,
+      "added_to_cart": 4611,
+      "purchased": 828,
+      "view_to_cart_pct": 20.12,
+      "cart_to_purchase_pct": 17.96
+    },
+    {
+      "event_date": "2019-12-22",
+      "viewed": 23773,
+      "added_to_cart": 5133,
+      "purchased": 932,
+      "view_to_cart_pct": 21.59,
+      "cart_to_purchase_pct": 18.16
+    },
+    {
+      "event_date": "2019-12-23",
+      "viewed": 28000,
+      "added_to_cart": 5827,
+      "purchased": 1102,
+      "view_to_cart_pct": 20.81,
+      "cart_to_purchase_pct": 18.91
+    },
+    {
+      "event_date": "2019-12-24",
+      "viewed": 25873,
+      "added_to_cart": 5530,
+      "purchased": 1100,
+      "view_to_cart_pct": 21.37,
+      "cart_to_purchase_pct": 19.89
+    },
+    {
+      "event_date": "2019-12-25",
+      "viewed": 25876,
+      "added_to_cart": 5408,
+      "purchased": 1008,
+      "view_to_cart_pct": 20.9,
+      "cart_to_purchase_pct": 18.64
+    },
+    {
+      "event_date": "2019-12-26",
+      "viewed": 23353,
+      "added_to_cart": 4722,
+      "purchased": 917,
+      "view_to_cart_pct": 20.22,
+      "cart_to_purchase_pct": 19.42
+    },
+    {
+      "event_date": "2019-12-27",
+      "viewed": 20834,
+      "added_to_cart": 4042,
+      "purchased": 708,
+      "view_to_cart_pct": 19.4,
+      "cart_to_purchase_pct": 17.52
+    },
+    {
+      "event_date": "2019-12-28",
+      "viewed": 21227,
+      "added_to_cart": 4094,
+      "purchased": 691,
+      "view_to_cart_pct": 19.29,
+      "cart_to_purchase_pct": 16.88
+    },
+    {
+      "event_date": "2019-12-29",
+      "viewed": 21123,
+      "added_to_cart": 3715,
+      "purchased": 570,
+      "view_to_cart_pct": 17.59,
+      "cart_to_purchase_pct": 15.34
+    },
+    {
+      "event_date": "2019-12-30",
+      "viewed": 18673,
+      "added_to_cart": 3067,
+      "purchased": 360,
+      "view_to_cart_pct": 16.42,
+      "cart_to_purchase_pct": 11.74
+    },
+    {
+      "event_date": "2019-12-31",
+      "viewed": 9924,
+      "added_to_cart": 1392,
+      "purchased": 186,
+      "view_to_cart_pct": 14.03,
+      "cart_to_purchase_pct": 13.36
+    },
+    {
+      "event_date": "2020-01-01",
+      "viewed": 17613,
+      "added_to_cart": 3650,
+      "purchased": 441,
+      "view_to_cart_pct": 20.72,
+      "cart_to_purchase_pct": 12.08
+    },
+    {
+      "event_date": "2020-01-02",
+      "viewed": 21761,
+      "added_to_cart": 4687,
+      "purchased": 599,
+      "view_to_cart_pct": 21.54,
+      "cart_to_purchase_pct": 12.78
+    },
+    {
+      "event_date": "2020-01-03",
+      "viewed": 25529,
+      "added_to_cart": 5068,
+      "purchased": 755,
+      "view_to_cart_pct": 19.85,
+      "cart_to_purchase_pct": 14.9
+    },
+    {
+      "event_date": "2020-01-04",
+      "viewed": 25457,
+      "added_to_cart": 5145,
+      "purchased": 805,
+      "view_to_cart_pct": 20.21,
+      "cart_to_purchase_pct": 15.65
+    },
+    {
+      "event_date": "2020-01-05",
+      "viewed": 25933,
+      "added_to_cart": 5550,
+      "purchased": 872,
+      "view_to_cart_pct": 21.4,
+      "cart_to_purchase_pct": 15.71
+    },
+    {
+      "event_date": "2020-01-06",
+      "viewed": 23799,
+      "added_to_cart": 5040,
+      "purchased": 832,
+      "view_to_cart_pct": 21.18,
+      "cart_to_purchase_pct": 16.51
+    },
+    {
+      "event_date": "2020-01-07",
+      "viewed": 26733,
+      "added_to_cart": 5495,
+      "purchased": 910,
+      "view_to_cart_pct": 20.56,
+      "cart_to_purchase_pct": 16.56
+    },
+    {
+      "event_date": "2020-01-08",
+      "viewed": 28719,
+      "added_to_cart": 6103,
+      "purchased": 979,
+      "view_to_cart_pct": 21.25,
+      "cart_to_purchase_pct": 16.04
+    },
+    {
+      "event_date": "2020-01-09",
+      "viewed": 32802,
+      "added_to_cart": 6767,
+      "purchased": 1109,
+      "view_to_cart_pct": 20.63,
+      "cart_to_purchase_pct": 16.39
+    },
+    {
+      "event_date": "2020-01-10",
+      "viewed": 30624,
+      "added_to_cart": 6187,
+      "purchased": 1060,
+      "view_to_cart_pct": 20.2,
+      "cart_to_purchase_pct": 17.13
+    },
+    {
+      "event_date": "2020-01-11",
+      "viewed": 29698,
+      "added_to_cart": 5657,
+      "purchased": 906,
+      "view_to_cart_pct": 19.05,
+      "cart_to_purchase_pct": 16.02
+    },
+    {
+      "event_date": "2020-01-12",
+      "viewed": 32183,
+      "added_to_cart": 6509,
+      "purchased": 1029,
+      "view_to_cart_pct": 20.22,
+      "cart_to_purchase_pct": 15.81
+    },
+    {
+      "event_date": "2020-01-13",
+      "viewed": 34865,
+      "added_to_cart": 7633,
+      "purchased": 1310,
+      "view_to_cart_pct": 21.89,
+      "cart_to_purchase_pct": 17.16
+    },
+    {
+      "event_date": "2020-01-14",
+      "viewed": 37025,
+      "added_to_cart": 7637,
+      "purchased": 1252,
+      "view_to_cart_pct": 20.63,
+      "cart_to_purchase_pct": 16.39
+    },
+    {
+      "event_date": "2020-01-15",
+      "viewed": 34784,
+      "added_to_cart": 7455,
+      "purchased": 1215,
+      "view_to_cart_pct": 21.43,
+      "cart_to_purchase_pct": 16.3
+    },
+    {
+      "event_date": "2020-01-16",
+      "viewed": 31467,
+      "added_to_cart": 7316,
+      "purchased": 1123,
+      "view_to_cart_pct": 23.25,
+      "cart_to_purchase_pct": 15.35
+    },
+    {
+      "event_date": "2020-01-17",
+      "viewed": 29048,
+      "added_to_cart": 6435,
+      "purchased": 1043,
+      "view_to_cart_pct": 22.15,
+      "cart_to_purchase_pct": 16.21
+    },
+    {
+      "event_date": "2020-01-18",
+      "viewed": 24978,
+      "added_to_cart": 5538,
+      "purchased": 796,
+      "view_to_cart_pct": 22.17,
+      "cart_to_purchase_pct": 14.37
+    },
+    {
+      "event_date": "2020-01-19",
+      "viewed": 27060,
+      "added_to_cart": 6271,
+      "purchased": 960,
+      "view_to_cart_pct": 23.17,
+      "cart_to_purchase_pct": 15.31
+    },
+    {
+      "event_date": "2020-01-20",
+      "viewed": 31906,
+      "added_to_cart": 7198,
+      "purchased": 1147,
+      "view_to_cart_pct": 22.56,
+      "cart_to_purchase_pct": 15.93
+    },
+    {
+      "event_date": "2020-01-21",
+      "viewed": 32732,
+      "added_to_cart": 7244,
+      "purchased": 1189,
+      "view_to_cart_pct": 22.13,
+      "cart_to_purchase_pct": 16.41
+    },
+    {
+      "event_date": "2020-01-22",
+      "viewed": 31313,
+      "added_to_cart": 6796,
+      "purchased": 1129,
+      "view_to_cart_pct": 21.7,
+      "cart_to_purchase_pct": 16.61
+    },
+    {
+      "event_date": "2020-01-23",
+      "viewed": 32784,
+      "added_to_cart": 6866,
+      "purchased": 1112,
+      "view_to_cart_pct": 20.94,
+      "cart_to_purchase_pct": 16.2
+    },
+    {
+      "event_date": "2020-01-24",
+      "viewed": 30919,
+      "added_to_cart": 6371,
+      "purchased": 1027,
+      "view_to_cart_pct": 20.61,
+      "cart_to_purchase_pct": 16.12
+    },
+    {
+      "event_date": "2020-01-25",
+      "viewed": 26245,
+      "added_to_cart": 5583,
+      "purchased": 815,
+      "view_to_cart_pct": 21.27,
+      "cart_to_purchase_pct": 14.6
+    },
+    {
+      "event_date": "2020-01-26",
+      "viewed": 28828,
+      "added_to_cart": 6337,
+      "purchased": 960,
+      "view_to_cart_pct": 21.98,
+      "cart_to_purchase_pct": 15.15
+    },
+    {
+      "event_date": "2020-01-27",
+      "viewed": 37807,
+      "added_to_cart": 9886,
+      "purchased": 2072,
+      "view_to_cart_pct": 26.15,
+      "cart_to_purchase_pct": 20.96
+    },
+    {
+      "event_date": "2020-01-28",
+      "viewed": 34863,
+      "added_to_cart": 8525,
+      "purchased": 2057,
+      "view_to_cart_pct": 24.45,
+      "cart_to_purchase_pct": 24.13
+    },
+    {
+      "event_date": "2020-01-29",
+      "viewed": 33467,
+      "added_to_cart": 6996,
+      "purchased": 1007,
+      "view_to_cart_pct": 20.9,
+      "cart_to_purchase_pct": 14.39
+    },
+    {
+      "event_date": "2020-01-30",
+      "viewed": 32571,
+      "added_to_cart": 6750,
+      "purchased": 979,
+      "view_to_cart_pct": 20.72,
+      "cart_to_purchase_pct": 14.5
+    },
+    {
+      "event_date": "2020-01-31",
+      "viewed": 33141,
+      "added_to_cart": 6354,
+      "purchased": 988,
+      "view_to_cart_pct": 19.17,
+      "cart_to_purchase_pct": 15.55
+    },
+    {
+      "event_date": "2020-02-01",
+      "viewed": 33397,
+      "added_to_cart": 7073,
+      "purchased": 904,
+      "view_to_cart_pct": 21.18,
+      "cart_to_purchase_pct": 12.78
+    },
+    {
+      "event_date": "2020-02-02",
+      "viewed": 34794,
+      "added_to_cart": 7195,
+      "purchased": 1034,
+      "view_to_cart_pct": 20.68,
+      "cart_to_purchase_pct": 14.37
+    },
+    {
+      "event_date": "2020-02-03",
+      "viewed": 36600,
+      "added_to_cart": 8365,
+      "purchased": 1198,
+      "view_to_cart_pct": 22.86,
+      "cart_to_purchase_pct": 14.32
+    },
+    {
+      "event_date": "2020-02-04",
+      "viewed": 33963,
+      "added_to_cart": 7665,
+      "purchased": 1132,
+      "view_to_cart_pct": 22.57,
+      "cart_to_purchase_pct": 14.77
+    },
+    {
+      "event_date": "2020-02-05",
+      "viewed": 32227,
+      "added_to_cart": 7716,
+      "purchased": 1151,
+      "view_to_cart_pct": 23.94,
+      "cart_to_purchase_pct": 14.92
+    },
+    {
+      "event_date": "2020-02-06",
+      "viewed": 31648,
+      "added_to_cart": 6986,
+      "purchased": 1109,
+      "view_to_cart_pct": 22.07,
+      "cart_to_purchase_pct": 15.87
+    },
+    {
+      "event_date": "2020-02-07",
+      "viewed": 30916,
+      "added_to_cart": 6555,
+      "purchased": 997,
+      "view_to_cart_pct": 21.2,
+      "cart_to_purchase_pct": 15.21
+    },
+    {
+      "event_date": "2020-02-08",
+      "viewed": 25727,
+      "added_to_cart": 5557,
+      "purchased": 829,
+      "view_to_cart_pct": 21.6,
+      "cart_to_purchase_pct": 14.92
+    },
+    {
+      "event_date": "2020-02-09",
+      "viewed": 29637,
+      "added_to_cart": 6533,
+      "purchased": 1024,
+      "view_to_cart_pct": 22.04,
+      "cart_to_purchase_pct": 15.67
+    },
+    {
+      "event_date": "2020-02-10",
+      "viewed": 34199,
+      "added_to_cart": 7620,
+      "purchased": 1155,
+      "view_to_cart_pct": 22.28,
+      "cart_to_purchase_pct": 15.16
+    },
+    {
+      "event_date": "2020-02-11",
+      "viewed": 33283,
+      "added_to_cart": 7174,
+      "purchased": 1169,
+      "view_to_cart_pct": 21.55,
+      "cart_to_purchase_pct": 16.29
+    },
+    {
+      "event_date": "2020-02-12",
+      "viewed": 33494,
+      "added_to_cart": 7626,
+      "purchased": 1168,
+      "view_to_cart_pct": 22.77,
+      "cart_to_purchase_pct": 15.32
+    },
+    {
+      "event_date": "2020-02-13",
+      "viewed": 30228,
+      "added_to_cart": 6640,
+      "purchased": 1052,
+      "view_to_cart_pct": 21.97,
+      "cart_to_purchase_pct": 15.84
+    },
+    {
+      "event_date": "2020-02-14",
+      "viewed": 26881,
+      "added_to_cart": 5772,
+      "purchased": 868,
+      "view_to_cart_pct": 21.47,
+      "cart_to_purchase_pct": 15.04
+    },
+    {
+      "event_date": "2020-02-15",
+      "viewed": 26575,
+      "added_to_cart": 5709,
+      "purchased": 827,
+      "view_to_cart_pct": 21.48,
+      "cart_to_purchase_pct": 14.49
+    },
+    {
+      "event_date": "2020-02-16",
+      "viewed": 27329,
+      "added_to_cart": 6036,
+      "purchased": 884,
+      "view_to_cart_pct": 22.09,
+      "cart_to_purchase_pct": 14.65
+    },
+    {
+      "event_date": "2020-02-17",
+      "viewed": 31836,
+      "added_to_cart": 7183,
+      "purchased": 1178,
+      "view_to_cart_pct": 22.56,
+      "cart_to_purchase_pct": 16.4
+    },
+    {
+      "event_date": "2020-02-18",
+      "viewed": 31008,
+      "added_to_cart": 6679,
+      "purchased": 1076,
+      "view_to_cart_pct": 21.54,
+      "cart_to_purchase_pct": 16.11
+    },
+    {
+      "event_date": "2020-02-19",
+      "viewed": 31303,
+      "added_to_cart": 6725,
+      "purchased": 1098,
+      "view_to_cart_pct": 21.48,
+      "cart_to_purchase_pct": 16.33
+    },
+    {
+      "event_date": "2020-02-20",
+      "viewed": 29711,
+      "added_to_cart": 6137,
+      "purchased": 958,
+      "view_to_cart_pct": 20.66,
+      "cart_to_purchase_pct": 15.61
+    },
+    {
+      "event_date": "2020-02-21",
+      "viewed": 25973,
+      "added_to_cart": 5388,
+      "purchased": 895,
+      "view_to_cart_pct": 20.74,
+      "cart_to_purchase_pct": 16.61
+    },
+    {
+      "event_date": "2020-02-22",
+      "viewed": 23450,
+      "added_to_cart": 4986,
+      "purchased": 783,
+      "view_to_cart_pct": 21.26,
+      "cart_to_purchase_pct": 15.7
+    },
+    {
+      "event_date": "2020-02-23",
+      "viewed": 25076,
+      "added_to_cart": 5259,
+      "purchased": 743,
+      "view_to_cart_pct": 20.97,
+      "cart_to_purchase_pct": 14.13
+    },
+    {
+      "event_date": "2020-02-24",
+      "viewed": 28318,
+      "added_to_cart": 6242,
+      "purchased": 961,
+      "view_to_cart_pct": 22.04,
+      "cart_to_purchase_pct": 15.4
+    },
+    {
+      "event_date": "2020-02-25",
+      "viewed": 32152,
+      "added_to_cart": 7284,
+      "purchased": 1122,
+      "view_to_cart_pct": 22.65,
+      "cart_to_purchase_pct": 15.4
+    },
+    {
+      "event_date": "2020-02-26",
+      "viewed": 33047,
+      "added_to_cart": 7049,
+      "purchased": 1110,
+      "view_to_cart_pct": 21.33,
+      "cart_to_purchase_pct": 15.75
+    },
+    {
+      "event_date": "2020-02-27",
+      "viewed": 32812,
+      "added_to_cart": 6963,
+      "purchased": 1154,
+      "view_to_cart_pct": 21.22,
+      "cart_to_purchase_pct": 16.57
+    },
+    {
+      "event_date": "2020-02-28",
+      "viewed": 31958,
+      "added_to_cart": 6327,
+      "purchased": 1021,
+      "view_to_cart_pct": 19.8,
+      "cart_to_purchase_pct": 16.14
+    },
+    {
+      "event_date": "2020-02-29",
+      "viewed": 30450,
+      "added_to_cart": 5925,
+      "purchased": 899,
+      "view_to_cart_pct": 19.46,
+      "cart_to_purchase_pct": 15.17
+    }
+  ],
+  "cohort": {
+    "weeks": [
+      "2019-W40",
+      "2019-W41",
+      "2019-W42",
+      "2019-W43",
+      "2019-W44",
+      "2019-W45",
+      "2019-W46",
+      "2019-W47",
+      "2019-W48",
+      "2019-W49",
+      "2019-W50",
+      "2019-W51",
+      "2019-W52",
+      "2020-W01",
+      "2020-W02",
+      "2020-W03",
+      "2020-W04",
+      "2020-W05",
+      "2020-W06",
+      "2020-W07",
+      "2020-W08",
+      "2020-W09"
+    ],
+    "matrix": [
+      {
+        "cohort": "2019-W40",
+        "size": 5412,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 5412,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 293,
+            "retention_pct": 5.41
+          },
+          {
+            "offset": 2,
+            "active_users": 314,
+            "retention_pct": 5.8
+          },
+          {
+            "offset": 3,
+            "active_users": 303,
+            "retention_pct": 5.6
+          },
+          {
+            "offset": 4,
+            "active_users": 332,
+            "retention_pct": 6.13
+          },
+          {
+            "offset": 5,
+            "active_users": 332,
+            "retention_pct": 6.13
+          },
+          {
+            "offset": 6,
+            "active_users": 283,
+            "retention_pct": 5.23
+          },
+          {
+            "offset": 7,
+            "active_users": 410,
+            "retention_pct": 7.58
+          },
+          {
+            "offset": 8,
+            "active_users": 339,
+            "retention_pct": 6.26
+          },
+          {
+            "offset": 9,
+            "active_users": 248,
+            "retention_pct": 4.58
+          },
+          {
+            "offset": 10,
+            "active_users": 239,
+            "retention_pct": 4.42
+          },
+          {
+            "offset": 11,
+            "active_users": 227,
+            "retention_pct": 4.19
+          },
+          {
+            "offset": 12,
+            "active_users": 158,
+            "retention_pct": 2.92
+          },
+          {
+            "offset": 13,
+            "active_users": 180,
+            "retention_pct": 3.33
+          },
+          {
+            "offset": 14,
+            "active_users": 201,
+            "retention_pct": 3.71
+          },
+          {
+            "offset": 15,
+            "active_users": 222,
+            "retention_pct": 4.1
+          },
+          {
+            "offset": 16,
+            "active_users": 218,
+            "retention_pct": 4.03
+          },
+          {
+            "offset": 17,
+            "active_users": 292,
+            "retention_pct": 5.4
+          },
+          {
+            "offset": 18,
+            "active_users": 219,
+            "retention_pct": 4.05
+          },
+          {
+            "offset": 19,
+            "active_users": 183,
+            "retention_pct": 3.38
+          },
+          {
+            "offset": 20,
+            "active_users": 188,
+            "retention_pct": 3.47
+          },
+          {
+            "offset": 21,
+            "active_users": 166,
+            "retention_pct": 3.07
+          }
+        ]
+      },
+      {
+        "cohort": "2019-W41",
+        "size": 6142,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 6142,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 271,
+            "retention_pct": 4.41
+          },
+          {
+            "offset": 2,
+            "active_users": 287,
+            "retention_pct": 4.67
+          },
+          {
+            "offset": 3,
+            "active_users": 271,
+            "retention_pct": 4.41
+          },
+          {
+            "offset": 4,
+            "active_users": 374,
+            "retention_pct": 6.09
+          },
+          {
+            "offset": 5,
+            "active_users": 285,
+            "retention_pct": 4.64
+          },
+          {
+            "offset": 6,
+            "active_users": 442,
+            "retention_pct": 7.2
+          },
+          {
+            "offset": 7,
+            "active_users": 309,
+            "retention_pct": 5.03
+          },
+          {
+            "offset": 8,
+            "active_users": 252,
+            "retention_pct": 4.1
+          },
+          {
+            "offset": 9,
+            "active_users": 271,
+            "retention_pct": 4.41
+          },
+          {
+            "offset": 10,
+            "active_users": 253,
+            "retention_pct": 4.12
+          },
+          {
+            "offset": 11,
+            "active_users": 204,
+            "retention_pct": 3.32
+          },
+          {
+            "offset": 12,
+            "active_users": 150,
+            "retention_pct": 2.44
+          },
+          {
+            "offset": 13,
+            "active_users": 231,
+            "retention_pct": 3.76
+          },
+          {
+            "offset": 14,
+            "active_users": 241,
+            "retention_pct": 3.92
+          },
+          {
+            "offset": 15,
+            "active_users": 224,
+            "retention_pct": 3.65
+          },
+          {
+            "offset": 16,
+            "active_users": 265,
+            "retention_pct": 4.31
+          },
+          {
+            "offset": 17,
+            "active_users": 187,
+            "retention_pct": 3.04
+          },
+          {
+            "offset": 18,
+            "active_users": 210,
+            "retention_pct": 3.42
+          },
+          {
+            "offset": 19,
+            "active_users": 180,
+            "retention_pct": 2.93
+          },
+          {
+            "offset": 20,
+            "active_users": 172,
+            "retention_pct": 2.8
+          }
+        ]
+      },
+      {
+        "cohort": "2019-W42",
+        "size": 5793,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 5793,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 254,
+            "retention_pct": 4.38
+          },
+          {
+            "offset": 2,
+            "active_users": 219,
+            "retention_pct": 3.78
+          },
+          {
+            "offset": 3,
+            "active_users": 294,
+            "retention_pct": 5.08
+          },
+          {
+            "offset": 4,
+            "active_users": 246,
+            "retention_pct": 4.25
+          },
+          {
+            "offset": 5,
+            "active_users": 402,
+            "retention_pct": 6.94
+          },
+          {
+            "offset": 6,
+            "active_users": 273,
+            "retention_pct": 4.71
+          },
+          {
+            "offset": 7,
+            "active_users": 215,
+            "retention_pct": 3.71
+          },
+          {
+            "offset": 8,
+            "active_users": 221,
+            "retention_pct": 3.81
+          },
+          {
+            "offset": 9,
+            "active_users": 167,
+            "retention_pct": 2.88
+          },
+          {
+            "offset": 10,
+            "active_users": 150,
+            "retention_pct": 2.59
+          },
+          {
+            "offset": 11,
+            "active_users": 108,
+            "retention_pct": 1.86
+          },
+          {
+            "offset": 12,
+            "active_users": 203,
+            "retention_pct": 3.5
+          },
+          {
+            "offset": 13,
+            "active_users": 190,
+            "retention_pct": 3.28
+          },
+          {
+            "offset": 14,
+            "active_users": 195,
+            "retention_pct": 3.37
+          },
+          {
+            "offset": 15,
+            "active_users": 229,
+            "retention_pct": 3.95
+          },
+          {
+            "offset": 16,
+            "active_users": 142,
+            "retention_pct": 2.45
+          },
+          {
+            "offset": 17,
+            "active_users": 171,
+            "retention_pct": 2.95
+          },
+          {
+            "offset": 18,
+            "active_users": 157,
+            "retention_pct": 2.71
+          },
+          {
+            "offset": 19,
+            "active_users": 154,
+            "retention_pct": 2.66
+          }
+        ]
+      },
+      {
+        "cohort": "2019-W43",
+        "size": 5357,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 5357,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 191,
+            "retention_pct": 3.57
+          },
+          {
+            "offset": 2,
+            "active_users": 257,
+            "retention_pct": 4.8
+          },
+          {
+            "offset": 3,
+            "active_users": 200,
+            "retention_pct": 3.73
+          },
+          {
+            "offset": 4,
+            "active_users": 325,
+            "retention_pct": 6.07
+          },
+          {
+            "offset": 5,
+            "active_users": 259,
+            "retention_pct": 4.83
+          },
+          {
+            "offset": 6,
+            "active_users": 175,
+            "retention_pct": 3.27
+          },
+          {
+            "offset": 7,
+            "active_users": 202,
+            "retention_pct": 3.77
+          },
+          {
+            "offset": 8,
+            "active_users": 168,
+            "retention_pct": 3.14
+          },
+          {
+            "offset": 9,
+            "active_users": 140,
+            "retention_pct": 2.61
+          },
+          {
+            "offset": 10,
+            "active_users": 91,
+            "retention_pct": 1.7
+          },
+          {
+            "offset": 11,
+            "active_users": 159,
+            "retention_pct": 2.97
+          },
+          {
+            "offset": 12,
+            "active_users": 184,
+            "retention_pct": 3.43
+          },
+          {
+            "offset": 13,
+            "active_users": 160,
+            "retention_pct": 2.99
+          },
+          {
+            "offset": 14,
+            "active_users": 190,
+            "retention_pct": 3.55
+          },
+          {
+            "offset": 15,
+            "active_users": 133,
+            "retention_pct": 2.48
+          },
+          {
+            "offset": 16,
+            "active_users": 141,
+            "retention_pct": 2.63
+          },
+          {
+            "offset": 17,
+            "active_users": 129,
+            "retention_pct": 2.41
+          },
+          {
+            "offset": 18,
+            "active_users": 100,
+            "retention_pct": 1.87
+          }
+        ]
+      },
+      {
+        "cohort": "2019-W44",
+        "size": 5130,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 5130,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 223,
+            "retention_pct": 4.35
+          },
+          {
+            "offset": 2,
+            "active_users": 171,
+            "retention_pct": 3.33
+          },
+          {
+            "offset": 3,
+            "active_users": 301,
+            "retention_pct": 5.87
+          },
+          {
+            "offset": 4,
+            "active_users": 233,
+            "retention_pct": 4.54
+          },
+          {
+            "offset": 5,
+            "active_users": 151,
+            "retention_pct": 2.94
+          },
+          {
+            "offset": 6,
+            "active_users": 182,
+            "retention_pct": 3.55
+          },
+          {
+            "offset": 7,
+            "active_users": 163,
+            "retention_pct": 3.18
+          },
+          {
+            "offset": 8,
+            "active_users": 113,
+            "retention_pct": 2.2
+          },
+          {
+            "offset": 9,
+            "active_users": 94,
+            "retention_pct": 1.83
+          },
+          {
+            "offset": 10,
+            "active_users": 169,
+            "retention_pct": 3.29
+          },
+          {
+            "offset": 11,
+            "active_users": 148,
+            "retention_pct": 2.88
+          },
+          {
+            "offset": 12,
+            "active_users": 157,
+            "retention_pct": 3.06
+          },
+          {
+            "offset": 13,
+            "active_users": 187,
+            "retention_pct": 3.65
+          },
+          {
+            "offset": 14,
+            "active_users": 123,
+            "retention_pct": 2.4
+          },
+          {
+            "offset": 15,
+            "active_users": 127,
+            "retention_pct": 2.48
+          },
+          {
+            "offset": 16,
+            "active_users": 116,
+            "retention_pct": 2.26
+          },
+          {
+            "offset": 17,
+            "active_users": 122,
+            "retention_pct": 2.38
+          }
+        ]
+      },
+      {
+        "cohort": "2019-W45",
+        "size": 5916,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 5916,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 218,
+            "retention_pct": 3.68
+          },
+          {
+            "offset": 2,
+            "active_users": 340,
+            "retention_pct": 5.75
+          },
+          {
+            "offset": 3,
+            "active_users": 219,
+            "retention_pct": 3.7
+          },
+          {
+            "offset": 4,
+            "active_users": 197,
+            "retention_pct": 3.33
+          },
+          {
+            "offset": 5,
+            "active_users": 177,
+            "retention_pct": 2.99
+          },
+          {
+            "offset": 6,
+            "active_users": 143,
+            "retention_pct": 2.42
+          },
+          {
+            "offset": 7,
+            "active_users": 101,
+            "retention_pct": 1.71
+          },
+          {
+            "offset": 8,
+            "active_users": 118,
+            "retention_pct": 1.99
+          },
+          {
+            "offset": 9,
+            "active_users": 169,
+            "retention_pct": 2.86
+          },
+          {
+            "offset": 10,
+            "active_users": 165,
+            "retention_pct": 2.79
+          },
+          {
+            "offset": 11,
+            "active_users": 152,
+            "retention_pct": 2.57
+          },
+          {
+            "offset": 12,
+            "active_users": 196,
+            "retention_pct": 3.31
+          },
+          {
+            "offset": 13,
+            "active_users": 133,
+            "retention_pct": 2.25
+          },
+          {
+            "offset": 14,
+            "active_users": 132,
+            "retention_pct": 2.23
+          },
+          {
+            "offset": 15,
+            "active_users": 117,
+            "retention_pct": 1.98
+          },
+          {
+            "offset": 16,
+            "active_users": 129,
+            "retention_pct": 2.18
+          }
+        ]
+      },
+      {
+        "cohort": "2019-W46",
+        "size": 5056,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 5056,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 274,
+            "retention_pct": 5.42
+          },
+          {
+            "offset": 2,
+            "active_users": 195,
+            "retention_pct": 3.86
+          },
+          {
+            "offset": 3,
+            "active_users": 150,
+            "retention_pct": 2.97
+          },
+          {
+            "offset": 4,
+            "active_users": 161,
+            "retention_pct": 3.18
+          },
+          {
+            "offset": 5,
+            "active_users": 143,
+            "retention_pct": 2.83
+          },
+          {
+            "offset": 6,
+            "active_users": 93,
+            "retention_pct": 1.84
+          },
+          {
+            "offset": 7,
+            "active_users": 86,
+            "retention_pct": 1.7
+          },
+          {
+            "offset": 8,
+            "active_users": 126,
+            "retention_pct": 2.49
+          },
+          {
+            "offset": 9,
+            "active_users": 152,
+            "retention_pct": 3.01
+          },
+          {
+            "offset": 10,
+            "active_users": 149,
+            "retention_pct": 2.95
+          },
+          {
+            "offset": 11,
+            "active_users": 145,
+            "retention_pct": 2.87
+          },
+          {
+            "offset": 12,
+            "active_users": 121,
+            "retention_pct": 2.39
+          },
+          {
+            "offset": 13,
+            "active_users": 118,
+            "retention_pct": 2.33
+          },
+          {
+            "offset": 14,
+            "active_users": 103,
+            "retention_pct": 2.04
+          },
+          {
+            "offset": 15,
+            "active_users": 108,
+            "retention_pct": 2.14
+          }
+        ]
+      },
+      {
+        "cohort": "2019-W47",
+        "size": 7894,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 7894,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 288,
+            "retention_pct": 3.65
+          },
+          {
+            "offset": 2,
+            "active_users": 182,
+            "retention_pct": 2.31
+          },
+          {
+            "offset": 3,
+            "active_users": 230,
+            "retention_pct": 2.91
+          },
+          {
+            "offset": 4,
+            "active_users": 220,
+            "retention_pct": 2.79
+          },
+          {
+            "offset": 5,
+            "active_users": 142,
+            "retention_pct": 1.8
+          },
+          {
+            "offset": 6,
+            "active_users": 108,
+            "retention_pct": 1.37
+          },
+          {
+            "offset": 7,
+            "active_users": 182,
+            "retention_pct": 2.31
+          },
+          {
+            "offset": 8,
+            "active_users": 202,
+            "retention_pct": 2.56
+          },
+          {
+            "offset": 9,
+            "active_users": 170,
+            "retention_pct": 2.15
+          },
+          {
+            "offset": 10,
+            "active_users": 227,
+            "retention_pct": 2.88
+          },
+          {
+            "offset": 11,
+            "active_users": 198,
+            "retention_pct": 2.51
+          },
+          {
+            "offset": 12,
+            "active_users": 173,
+            "retention_pct": 2.19
+          },
+          {
+            "offset": 13,
+            "active_users": 148,
+            "retention_pct": 1.87
+          },
+          {
+            "offset": 14,
+            "active_users": 124,
+            "retention_pct": 1.57
+          }
+        ]
+      },
+      {
+        "cohort": "2019-W48",
+        "size": 6415,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 6415,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 159,
+            "retention_pct": 2.48
+          },
+          {
+            "offset": 2,
+            "active_users": 190,
+            "retention_pct": 2.96
+          },
+          {
+            "offset": 3,
+            "active_users": 165,
+            "retention_pct": 2.57
+          },
+          {
+            "offset": 4,
+            "active_users": 132,
+            "retention_pct": 2.06
+          },
+          {
+            "offset": 5,
+            "active_users": 96,
+            "retention_pct": 1.5
+          },
+          {
+            "offset": 6,
+            "active_users": 143,
+            "retention_pct": 2.23
+          },
+          {
+            "offset": 7,
+            "active_users": 181,
+            "retention_pct": 2.82
+          },
+          {
+            "offset": 8,
+            "active_users": 127,
+            "retention_pct": 1.98
+          },
+          {
+            "offset": 9,
+            "active_users": 203,
+            "retention_pct": 3.16
+          },
+          {
+            "offset": 10,
+            "active_users": 118,
+            "retention_pct": 1.84
+          },
+          {
+            "offset": 11,
+            "active_users": 115,
+            "retention_pct": 1.79
+          },
+          {
+            "offset": 12,
+            "active_users": 127,
+            "retention_pct": 1.98
+          },
+          {
+            "offset": 13,
+            "active_users": 113,
+            "retention_pct": 1.76
+          }
+        ]
+      },
+      {
+        "cohort": "2019-W49",
+        "size": 4520,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 4520,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 152,
+            "retention_pct": 3.36
+          },
+          {
+            "offset": 2,
+            "active_users": 121,
+            "retention_pct": 2.68
+          },
+          {
+            "offset": 3,
+            "active_users": 91,
+            "retention_pct": 2.01
+          },
+          {
+            "offset": 4,
+            "active_users": 52,
+            "retention_pct": 1.15
+          },
+          {
+            "offset": 5,
+            "active_users": 99,
+            "retention_pct": 2.19
+          },
+          {
+            "offset": 6,
+            "active_users": 119,
+            "retention_pct": 2.63
+          },
+          {
+            "offset": 7,
+            "active_users": 92,
+            "retention_pct": 2.04
+          },
+          {
+            "offset": 8,
+            "active_users": 106,
+            "retention_pct": 2.35
+          },
+          {
+            "offset": 9,
+            "active_users": 95,
+            "retention_pct": 2.1
+          },
+          {
+            "offset": 10,
+            "active_users": 86,
+            "retention_pct": 1.9
+          },
+          {
+            "offset": 11,
+            "active_users": 101,
+            "retention_pct": 2.23
+          },
+          {
+            "offset": 12,
+            "active_users": 60,
+            "retention_pct": 1.33
+          }
+        ]
+      },
+      {
+        "cohort": "2019-W50",
+        "size": 5007,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 5007,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 155,
+            "retention_pct": 3.1
+          },
+          {
+            "offset": 2,
+            "active_users": 117,
+            "retention_pct": 2.34
+          },
+          {
+            "offset": 3,
+            "active_users": 69,
+            "retention_pct": 1.38
+          },
+          {
+            "offset": 4,
+            "active_users": 103,
+            "retention_pct": 2.06
+          },
+          {
+            "offset": 5,
+            "active_users": 134,
+            "retention_pct": 2.68
+          },
+          {
+            "offset": 6,
+            "active_users": 104,
+            "retention_pct": 2.08
+          },
+          {
+            "offset": 7,
+            "active_users": 121,
+            "retention_pct": 2.42
+          },
+          {
+            "offset": 8,
+            "active_users": 98,
+            "retention_pct": 1.96
+          },
+          {
+            "offset": 9,
+            "active_users": 107,
+            "retention_pct": 2.14
+          },
+          {
+            "offset": 10,
+            "active_users": 77,
+            "retention_pct": 1.54
+          },
+          {
+            "offset": 11,
+            "active_users": 81,
+            "retention_pct": 1.62
+          }
+        ]
+      },
+      {
+        "cohort": "2019-W51",
+        "size": 5059,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 5059,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 143,
+            "retention_pct": 2.83
+          },
+          {
+            "offset": 2,
+            "active_users": 66,
+            "retention_pct": 1.3
+          },
+          {
+            "offset": 3,
+            "active_users": 112,
+            "retention_pct": 2.21
+          },
+          {
+            "offset": 4,
+            "active_users": 112,
+            "retention_pct": 2.21
+          },
+          {
+            "offset": 5,
+            "active_users": 111,
+            "retention_pct": 2.19
+          },
+          {
+            "offset": 6,
+            "active_users": 103,
+            "retention_pct": 2.04
+          },
+          {
+            "offset": 7,
+            "active_users": 89,
+            "retention_pct": 1.76
+          },
+          {
+            "offset": 8,
+            "active_users": 81,
+            "retention_pct": 1.6
+          },
+          {
+            "offset": 9,
+            "active_users": 84,
+            "retention_pct": 1.66
+          },
+          {
+            "offset": 10,
+            "active_users": 76,
+            "retention_pct": 1.5
+          }
+        ]
+      },
+      {
+        "cohort": "2019-W52",
+        "size": 4167,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 4167,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 57,
+            "retention_pct": 1.37
+          },
+          {
+            "offset": 2,
+            "active_users": 87,
+            "retention_pct": 2.09
+          },
+          {
+            "offset": 3,
+            "active_users": 99,
+            "retention_pct": 2.38
+          },
+          {
+            "offset": 4,
+            "active_users": 92,
+            "retention_pct": 2.21
+          },
+          {
+            "offset": 5,
+            "active_users": 95,
+            "retention_pct": 2.28
+          },
+          {
+            "offset": 6,
+            "active_users": 77,
+            "retention_pct": 1.85
+          },
+          {
+            "offset": 7,
+            "active_users": 55,
+            "retention_pct": 1.32
+          },
+          {
+            "offset": 8,
+            "active_users": 46,
+            "retention_pct": 1.1
+          },
+          {
+            "offset": 9,
+            "active_users": 52,
+            "retention_pct": 1.25
+          }
+        ]
+      },
+      {
+        "cohort": "2020-W01",
+        "size": 2534,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 2534,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 97,
+            "retention_pct": 3.83
+          },
+          {
+            "offset": 2,
+            "active_users": 79,
+            "retention_pct": 3.12
+          },
+          {
+            "offset": 3,
+            "active_users": 58,
+            "retention_pct": 2.29
+          },
+          {
+            "offset": 4,
+            "active_users": 94,
+            "retention_pct": 3.71
+          },
+          {
+            "offset": 5,
+            "active_users": 73,
+            "retention_pct": 2.88
+          },
+          {
+            "offset": 6,
+            "active_users": 62,
+            "retention_pct": 2.45
+          },
+          {
+            "offset": 7,
+            "active_users": 51,
+            "retention_pct": 2.01
+          },
+          {
+            "offset": 8,
+            "active_users": 51,
+            "retention_pct": 2.01
+          }
+        ]
+      },
+      {
+        "cohort": "2020-W02",
+        "size": 4373,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 4373,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 143,
+            "retention_pct": 3.27
+          },
+          {
+            "offset": 2,
+            "active_users": 134,
+            "retention_pct": 3.06
+          },
+          {
+            "offset": 3,
+            "active_users": 152,
+            "retention_pct": 3.48
+          },
+          {
+            "offset": 4,
+            "active_users": 114,
+            "retention_pct": 2.61
+          },
+          {
+            "offset": 5,
+            "active_users": 103,
+            "retention_pct": 2.36
+          },
+          {
+            "offset": 6,
+            "active_users": 86,
+            "retention_pct": 1.97
+          },
+          {
+            "offset": 7,
+            "active_users": 72,
+            "retention_pct": 1.65
+          }
+        ]
+      },
+      {
+        "cohort": "2020-W03",
+        "size": 4896,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 4896,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 145,
+            "retention_pct": 2.96
+          },
+          {
+            "offset": 2,
+            "active_users": 171,
+            "retention_pct": 3.49
+          },
+          {
+            "offset": 3,
+            "active_users": 131,
+            "retention_pct": 2.68
+          },
+          {
+            "offset": 4,
+            "active_users": 117,
+            "retention_pct": 2.39
+          },
+          {
+            "offset": 5,
+            "active_users": 98,
+            "retention_pct": 2.0
+          },
+          {
+            "offset": 6,
+            "active_users": 94,
+            "retention_pct": 1.92
+          }
+        ]
+      },
+      {
+        "cohort": "2020-W04",
+        "size": 4689,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 4689,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 176,
+            "retention_pct": 3.75
+          },
+          {
+            "offset": 2,
+            "active_users": 143,
+            "retention_pct": 3.05
+          },
+          {
+            "offset": 3,
+            "active_users": 116,
+            "retention_pct": 2.47
+          },
+          {
+            "offset": 4,
+            "active_users": 116,
+            "retention_pct": 2.47
+          },
+          {
+            "offset": 5,
+            "active_users": 105,
+            "retention_pct": 2.24
+          }
+        ]
+      },
+      {
+        "cohort": "2020-W05",
+        "size": 5497,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 5497,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 169,
+            "retention_pct": 3.07
+          },
+          {
+            "offset": 2,
+            "active_users": 145,
+            "retention_pct": 2.64
+          },
+          {
+            "offset": 3,
+            "active_users": 125,
+            "retention_pct": 2.27
+          },
+          {
+            "offset": 4,
+            "active_users": 119,
+            "retention_pct": 2.16
+          }
+        ]
+      },
+      {
+        "cohort": "2020-W06",
+        "size": 4627,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 4627,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 141,
+            "retention_pct": 3.05
+          },
+          {
+            "offset": 2,
+            "active_users": 109,
+            "retention_pct": 2.36
+          },
+          {
+            "offset": 3,
+            "active_users": 115,
+            "retention_pct": 2.49
+          }
+        ]
+      },
+      {
+        "cohort": "2020-W07",
+        "size": 4312,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 4312,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 147,
+            "retention_pct": 3.41
+          },
+          {
+            "offset": 2,
+            "active_users": 102,
+            "retention_pct": 2.37
+          }
+        ]
+      },
+      {
+        "cohort": "2020-W08",
+        "size": 4044,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 4044,
+            "retention_pct": 100.0
+          },
+          {
+            "offset": 1,
+            "active_users": 105,
+            "retention_pct": 2.6
+          }
+        ]
+      },
+      {
+        "cohort": "2020-W09",
+        "size": 3678,
+        "retention": [
+          {
+            "offset": 0,
+            "active_users": 3678,
+            "retention_pct": 100.0
+          }
+        ]
+      }
+    ]
+  },
+  "rfm": {
+    "as_of": "2020-02-29",
+    "users": 110518,
+    "revenue": 6348004.87,
+    "segments": [
+      {
+        "segment": "Champions",
+        "users": 11565,
+        "revenue": 2012555.38,
+        "user_share_pct": 10.46,
+        "revenue_share_pct": 31.7
+      },
+      {
+        "segment": "Potential",
+        "users": 40462,
+        "revenue": 1802941.17,
+        "user_share_pct": 36.61,
+        "revenue_share_pct": 28.4
+      },
+      {
+        "segment": "New customers",
+        "users": 30174,
+        "revenue": 1125998.44,
+        "user_share_pct": 27.3,
+        "revenue_share_pct": 17.74
+      },
+      {
+        "segment": "Hibernating",
+        "users": 20955,
+        "revenue": 830449.85,
+        "user_share_pct": 18.96,
+        "revenue_share_pct": 13.08
+      },
+      {
+        "segment": "At risk",
+        "users": 4954,
+        "revenue": 506019.88,
+        "user_share_pct": 4.48,
+        "revenue_share_pct": 7.97
+      },
+      {
+        "segment": "Loyal",
+        "users": 2408,
+        "revenue": 70040.15,
+        "user_share_pct": 2.18,
+        "revenue_share_pct": 1.1
+      }
+    ]
+  },
+  "ab_by_cohort_month": [
+    {
+      "cohort_month": "2019-10-01",
+      "users": 25762,
+      "orders": 48103,
+      "revenue": 2123076.09,
+      "revenue_per_user": 82.41
+    },
+    {
+      "cohort_month": "2019-11-01",
+      "users": 26761,
+      "orders": 38613,
+      "revenue": 1604713.95,
+      "revenue_per_user": 59.96
+    },
+    {
+      "cohort_month": "2019-12-01",
+      "users": 19702,
+      "orders": 24916,
+      "revenue": 909301.4,
+      "revenue_per_user": 46.15
+    },
+    {
+      "cohort_month": "2020-01-01",
+      "users": 20427,
+      "orders": 24553,
+      "revenue": 962593.41,
+      "revenue_per_user": 47.12
+    },
+    {
+      "cohort_month": "2020-02-01",
+      "users": 17866,
+      "orders": 19432,
+      "revenue": 748320.02,
+      "revenue_per_user": 41.89
+    }
+  ]
+}

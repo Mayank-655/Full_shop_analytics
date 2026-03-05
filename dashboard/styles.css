@@ -1,0 +1,96 @@
+:root {
+  --bg: #0c1222;
+  --surface: #131b2e;
+  --border: #1e293b;
+  --text: #e2e8f0;
+  --text-muted: #94a3b8;
+  --accent: #0d9488;
+  --accent2: #f59e0b;
+  --mono: "JetBrains Mono", monospace;
+  --sans: "DM Sans", system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; font-family: var(--sans); background: var(--bg); color: var(--text); line-height: 1.5; }
+.container { max-width: 980px; margin: 0 auto; padding: 0 24px; }
+
+.header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 28px 0; }
+.dashboard-badge { margin: 0 0 6px; font-size: 0.75rem; color: var(--accent2); font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; }
+.header h1 { margin: 0; font-size: 1.6rem; font-weight: 700; }
+.subtitle { margin: 6px 0 0; color: var(--text-muted); font-size: 0.95rem; }
+.meta { margin: 10px 0 0; color: var(--text-muted); font-size: 0.85rem; }
+
+.main { padding: 34px 0 54px; }
+.section { margin-bottom: 44px; }
+.section h2 { margin: 0 0 10px; font-size: 1.2rem; font-weight: 600; }
+.desc { margin: 0 0 18px; color: var(--text-muted); font-size: 0.92rem; }
+
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; margin-bottom: 34px; }
+.kpi { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px; }
+.kpi .label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 6px; }
+.kpi .value { font-family: var(--mono); font-size: 1.35rem; font-weight: 600; }
+.kpi .value.accent { color: var(--accent); }
+
+.heatmap-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); }
+.heatmap { border-collapse: collapse; width: 100%; min-width: 760px; }
+.heatmap th, .heatmap td { padding: 10px 12px; border-bottom: 1px solid var(--border); text-align: center; font-family: var(--mono); font-size: 0.82rem; }
+.heatmap th { color: var(--text-muted); font-family: var(--sans); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.04em; }
+.heatmap td.label { text-align: left; font-family: var(--sans); color: var(--text); }
+.cell { border-radius: 8px; }
+
+.grid { display: grid; grid-template-columns: 1fr; gap: 14px; margin-bottom: 14px; }
+@media (min-width: 900px) { .grid { grid-template-columns: 1fr 1fr; } }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px; }
+.card h3 { margin: 0 0 10px; font-size: 0.95rem; color: var(--text-muted); font-weight: 600; }
+canvas { width: 100%; height: auto; }
+
+.table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); margin-bottom: 14px; }
+.data-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.data-table th, .data-table td { padding: 14px 18px; border-bottom: 1px solid var(--border); }
+.data-table th { color: var(--text-muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.04em; }
+.data-table tr:last-child td { border-bottom: none; }
+.num { text-align: right; font-family: var(--mono); }
+
+/* Funnel hero (differentiator vs cohort dashboard) */
+.funnel-hero { background: linear-gradient(135deg, var(--surface) 0%, #0f172a 100%); border: 1px solid var(--border); border-radius: 16px; padding: 24px; margin-bottom: 32px; }
+.funnel-hero h2 { color: var(--accent); }
+.funnel-viz { display: flex; align-items: flex-end; gap: 8px; height: 120px; margin: 20px 0; padding: 0 10px; }
+.funnel-viz .step { flex: 1; min-width: 80px; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; }
+.funnel-viz .bar { width: 100%; border-radius: 8px 8px 0 0; background: var(--accent); transition: height 0.3s ease; }
+.funnel-viz .step:nth-child(1) .bar { background: #0d9488; }
+.funnel-viz .step:nth-child(2) .bar { background: #0f766e; }
+.funnel-viz .step:nth-child(3) .bar { background: #f59e0b; }
+.funnel-viz .label { font-size: 0.8rem; color: var(--text-muted); margin-top: 8px; font-weight: 600; }
+.funnel-viz .count { font-family: var(--mono); font-size: 1rem; color: var(--text); margin-top: 2px; }
+.funnel-viz .pct { font-size: 0.75rem; color: var(--accent2); margin-top: 4px; }
+.funnel-kpis { display: flex; gap: 24px; flex-wrap: wrap; margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border); }
+.funnel-kpis .fk { font-size: 0.85rem; }
+.funnel-kpis .fk span { color: var(--accent2); font-family: var(--mono); font-weight: 600; }
+
+/* Part 2 — A/B Test Analysis */
+.part-divider { border: none; border-top: 2px solid var(--accent); margin: 40px 0 16px; opacity: 0.6; }
+.part-title { font-size: 1.3rem; color: var(--accent); margin: 0 0 6px; }
+.part-desc { color: var(--text-muted); font-size: 0.92rem; margin: 0 0 24px; }
+.ab-section h2 { margin-top: 0; }
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin: 20px 0 16px; }
+.stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 16px; }
+.stat-card .label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 4px; }
+.stat-card .value { font-family: var(--mono); font-size: 1.15rem; font-weight: 600; }
+.stat-card .value.highlight { color: var(--accent); }
+.significance-badge { display: inline-block; padding: 8px 14px; border-radius: 8px; font-size: 0.9rem; font-weight: 600; margin-bottom: 20px; }
+.significance-badge.significant { background: rgba(34, 197, 94, 0.15); color: #22c55e; }
+.significance-badge.not-significant { background: rgba(245, 158, 11, 0.15); color: var(--accent2); }
+.recommendation-box { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 12px; }
+.recommendation-box h3 { margin: 0 0 10px; font-size: 0.95rem; color: var(--text-muted); }
+.rec-text { margin: 0; font-size: 1rem; line-height: 1.6; color: var(--text); }
+.ab-note { font-size: 0.85rem; color: var(--text-muted); margin: 12px 0 0; font-style: italic; }
+
+/* Part 3 — Summary */
+.summary-cards { display: grid; grid-template-columns: 1fr; gap: 16px; }
+@media (min-width: 700px) { .summary-cards { grid-template-columns: repeat(3, 1fr); } }
+.sum-card { background: linear-gradient(135deg, var(--surface) 0%, #0f172a 100%); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+.sum-card h3 { margin: 0 0 10px; font-size: 1rem; color: var(--accent); }
+.sum-card p { margin: 0; font-size: 0.92rem; line-height: 1.5; color: var(--text); }
+
+.footer { border-top: 1px solid var(--border); padding: 22px 0; margin-top: 28px; }
+.footer p { margin: 0; color: var(--text-muted); font-size: 0.85rem; }

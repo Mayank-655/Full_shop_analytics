@@ -1,0 +1,12 @@
+# Python / env
+__pycache__/
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+data/kaggle_data/*.csv

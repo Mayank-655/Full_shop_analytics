@@ -1,0 +1,16 @@
+{
+  "variants": [
+    { "variant": "control", "users": 5000, "conversions": 479, "conversion_rate_pct": 9.58 },
+    { "variant": "treatment", "users": 5000, "conversions": 649, "conversion_rate_pct": 12.98 }
+  ],
+  "summary": {
+    "absolute_lift_pct": 3.4,
+    "relative_lift_pct": 35.49,
+    "z_statistic": -5.3738,
+    "p_value": 0.0,
+    "significant_at_05": true,
+    "ci_95_low_pct": -4.64,
+    "ci_95_high_pct": -2.16,
+    "recommendation": "Ship treatment — significant uplift; recommend rolling out to 100%."
+  }
+}

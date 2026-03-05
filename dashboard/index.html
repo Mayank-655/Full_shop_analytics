@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shop Analytics | Full-cycle: Funnel · Cohorts · Segments · A/B</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="shop-analytics-dashboard">
+  <header class="header">
+    <div class="container">
+      <p class="dashboard-badge">Dashboard: Shop Analytics (Project 5)</p>
+      <h1>Shop Analytics</h1>
+      <p class="subtitle">Full-cycle analytics: conversion funnel first, then cohorts, segments, and A/B by cohort month</p>
+      <p class="meta" id="meta"></p>
+    </div>
+  </header>
+
+  <main class="main container">
+    <h2 class="part-title">Part 1 — Shop analytics</h2>
+    <p class="part-desc">Funnel, cohorts, segments, and revenue by cohort month.</p>
+    <section class="section funnel-hero">
+      <h2>Conversion funnel</h2>
+      <p class="desc">View → Add to cart → Purchase. This is the main journey we optimize.</p>
+      <div class="funnel-viz" id="funnel-viz"></div>
+      <div class="funnel-kpis" id="funnel-kpis"></div>
+    </section>
+
+    <section class="kpis" id="kpis"></section>
+
+    <section class="section">
+      <h2>Funnel by day (detail)</h2>
+      <p class="desc">Daily session counts and conversion rates for drill-down.</p>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th class="num">Viewed</th>
+              <th class="num">Add to cart</th>
+              <th class="num">Purchased</th>
+              <th class="num">View→Cart %</th>
+              <th class="num">Cart→Purchase %</th>
+            </tr>
+          </thead>
+          <tbody id="funnel-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Cohort retention (weekly)</h2>
+      <p class="desc">Cohorts by <strong>first purchase week</strong>. Cell = % of cohort active in that week.</p>
+      <div class="heatmap-wrap">
+        <table class="heatmap" id="heatmap"></table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Customer segments (RFM)</h2>
+      <p class="desc">Segment size and revenue share for targeting and campaigns.</p>
+      <div class="grid">
+        <div class="card">
+          <h3>Segment size (users)</h3>
+          <canvas id="seg-size" width="640" height="260"></canvas>
+        </div>
+        <div class="card">
+          <h3>Revenue share %</h3>
+          <canvas id="seg-rev" width="640" height="260"></canvas>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Segment</th>
+              <th class="num">Users</th>
+              <th class="num">User share</th>
+              <th class="num">Revenue</th>
+              <th class="num">Revenue share</th>
+            </tr>
+          </thead>
+          <tbody id="seg-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>A/B-style: revenue by cohort month</h2>
+      <p class="desc">First-purchase cohort month: users, orders, revenue, revenue per user.</p>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Cohort month</th>
+              <th class="num">Users</th>
+              <th class="num">Orders</th>
+              <th class="num">Revenue</th>
+              <th class="num">Revenue / user</th>
+            </tr>
+          </thead>
+          <tbody id="ab-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <hr class="part-divider" />
+    <h2 class="part-title">Part 2 — A/B Test Analysis</h2>
+    <p class="part-desc">Statistical significance, confidence intervals, and experiment recommendation (from your A/B test run).</p>
+
+    <section class="section ab-section">
+      <h2>Results by variant</h2>
+      <div class="table-wrap">
+        <table class="data-table" id="variant-table">
+          <thead>
+            <tr>
+              <th>Variant</th>
+              <th class="num">Users</th>
+              <th class="num">Conversions</th>
+              <th class="num">Conversion rate</th>
+            </tr>
+          </thead>
+          <tbody id="variant-tbody"></tbody>
+        </table>
+      </div>
+      <div class="stats-grid" id="stats-grid"></div>
+      <div class="significance-badge" id="significance-badge"></div>
+      <div class="recommendation-box">
+        <h3>Recommendation</h3>
+        <p class="rec-text" id="recommendation-text"></p>
+      </div>
+      <p class="ab-note" id="ab-note"></p>
+    </section>
+
+    <hr class="part-divider" />
+    <h2 class="part-title">Part 3 — Summary</h2>
+    <p class="part-desc">Key takeaways for stakeholders.</p>
+
+    <section class="section summary-section">
+      <div class="summary-cards" id="summary-cards"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Shop Analytics (Project 5) · Funnel + Cohorts + Segments + A/B · Kaggle eCommerce data</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
